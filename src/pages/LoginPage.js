@@ -16,12 +16,6 @@ function LoginPage() {
         if (email === email_from_session && password === password_from_session) {
             navigate('/main')
         }
-        else {
-            // TBD
-            // return (
-            //     <h1 className="text-center">Bad login details</h1>
-            // )
-        }
     };
 
     const submitHandler = (e) => {
